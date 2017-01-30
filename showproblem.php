@@ -13,6 +13,7 @@
         <title></title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/uva.css" rel="stylesheet">
+        <script></script>
         <script type="text/javascript">
         var page = 1;
         var field,value,data;
@@ -92,6 +93,7 @@
         </script>
     </head>
     <body  onload="onload()">
+   	<a href="intro.txt" target="_blank">系统说明</a>
     <form class="form-inline" action="showtable1.php" style="text-align: center;margin:15px;" onsubmit="return mysubmit();">
         <div class="form-group">
             <label for="exampleInputName2">章节</label>
