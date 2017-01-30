@@ -1,5 +1,5 @@
 var page = 1;
-var field,value,data;
+var field='field=',value=2+'uts',data;
 
 function sort_table(elem){
     // alert(document.getElementById(id).getElementsByTagName('span')[0].innerHTML);
@@ -10,7 +10,7 @@ function sort_table(elem){
             t[i].getElementsByTagName('span')[0].innerHTML = "";
         }
         flag.innerHTML="↑";
-            query(1,"field=",1 + elem.id,'&'+window.data);
+        query(1,"field=",1 + elem.id,'&'+window.data);
     }
     else{
         if(flag.innerHTML=="↑"){
@@ -68,7 +68,7 @@ function mysubmit(){
     var data = form.serialize();
     //alert(data);
     window.data=data;
-    query(1,"","",data);
+    query(1,'field=',2+'uts'+'&',data);
     onload();
     return false;
 }

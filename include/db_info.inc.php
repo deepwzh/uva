@@ -2,7 +2,7 @@
 static $DB_HOST="localhost";    
 static $DB_NAME="uva";
 static $DB_USER="root";
-static $DB_PASS=" ";
+static $DB_PASS="Amola106";
 global $mysqli;
 if(($mysqli=mysqli_connect($DB_HOST,$DB_USER,$DB_PASS))==NULL)
     print("Error");
