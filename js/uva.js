@@ -72,3 +72,10 @@ function mysubmit(){
     onload();
     return false;
 }
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?dd4d7c5c2bcbdadf1a80dbb0903b3348";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
